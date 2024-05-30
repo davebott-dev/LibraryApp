@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale =1.0">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="formDisplay">
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Enter Details to Add to Library</legend>
+          <div class="formContainer">
+            <div class="formInputs">
+              <div class="bookTitle">
+                <label for="bookTitle">Book Title:</label>
+                <input type="text" id="bookTitle" name="bookTitle" placeholder="Book Name">
+              </div>
+              <div class="authorName">
+                <label for="authorName">Author Name:</label>
+                <input type="text" id="authorName" name="authorName" placeholder="Author Name">
+              </div>
+              <div class="pageNum">
+                <label for="pageNum">Number of pages:</label>
+                <input type="text" id="pageNum" name="PageNum" placeholder="Number of pages">
+              </div>
+
+
+              <p>Have you read this book?</p>
+              <div class="hasRead">
+                <label for="yesRead">Yes</label>
+                <input type="radio" id="yesRead" name="hasRead" value="yes" checked>
+                <label for="noRead">No</label>
+                <input type="radio" id="noRead" name="hasRead" value="no">
+              </div>
+            </div>
+            <div class="buttonDiv">
+              <button type="button" id="submitBtn">Add</button>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+
+    </div>
+
+    <div class="libraryDisplay">
+      <h3>Library</h3>
+      <div class="gridContainer">
+
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
